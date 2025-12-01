@@ -1,26 +1,11 @@
-# 🛍️ SPOTIFY CLONE (React + Tailwind)
+# SPOTIFY CLONE (React + Tailwind)
 
 This is a sample **SPOTIFY CLONE** built using React and Tailwind CSS.  
 The project includes routing, global context, reusable components, and product sections.  
 ~
 ---
 
-## ✅ What We Did
-- Planned the site structure → sketched layout & decided required pages.  
-- Installed dependencies: **Tailwind CSS**, **React Icons**, **React Toastify**, and **React Router**.  
-- Organized `assets` data from the source.  
-- Created a `pages` folder with different file nameed on different tabs in site with setup of boilerplate `rafce` components.  
-- Set up **BrowserRouter** in `main.jsx` and defined all routes in `App.jsx`.  
-- Built a **responsive Navbar component** inside `components/` and included it in `App.jsx`.  
-- Created the **Hero Section** → added heading text, hero image, and Google Fonts.  
-- Created a **context file** for accessing `assets.jsx` data and added global values (e.g., currency, delivery fee).  
-- Built the **Latest Products Section**:  
-  - Used `useContext` to pull in product data.  
-  - Added a reusable **Title** component.  
-  - Built a **ProductItem** component and mapped over product data.  
-- Built the **Best Seller Products Section** → displayed products where `isBestSeller === true`.  
-- build policies and newsletter box displayed a email input for newsletter 
-- build footer section 
+
 
 ---
 
