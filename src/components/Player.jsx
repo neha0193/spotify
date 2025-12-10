@@ -58,7 +58,7 @@ const Player = () => {
           />
         </div>
         <div className="flex items-center gap-5">
-          <p className="text-sm">{time.currentTime.minute}:{time.currentTime.second}</p>
+          <p className="text-sm">{time.currentTime.minute}:{String(time.currentTime.second).padStart(2, "0")}</p>
           <div
             ref={seekBg}
             onClick={seekSong}
@@ -69,7 +69,7 @@ const Player = () => {
               className="h-1 border-none w-0 bg-green-800 rounded-full"
             />
           </div>
-          <p className="text-sm">{time.totalTime.minute}:{time.totalTime.second}</p>
+          <p className="text-sm">{track.duration}</p>
         </div>
       </div>
       <div className="hidden lg:flex items-center gap-2 opacity-75">
